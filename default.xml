@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch=".." />
+
+  <default revision="refs/heads/lollipop-5.0"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="manifest" name="FlymeOS/manifest" />
+  <project path="tutorials" name="FlymeOS/tutorials" />
+  <project path="plugins" name="FlymeOS/plugins" />
+  <project path="build" name="FlymeOS/build" />
+  <project path="tools" name="FlymeOS/tools" />
+  <project path="flyme/release" name="FlymeOS/flyme-release"/>
+  <project path="flyme/overlay" name="FlymeOS/flyme-overlay" />
+  <project path="devices/base" name="FlymeOS/devices-base" />
+</manifest>
