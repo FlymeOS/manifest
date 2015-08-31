@@ -34,12 +34,19 @@
 通过repo sync命令同步远程代码: 
 
     $ repo init -u https://github.com/FlymeOS/manifest.git -b lollipop-5.0
-    $ repo sync
+    $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
 
     $ repo init --repo-url git://github.com/FlymeOS/repo.git \
                 -u https://github.com/FlymeOS/manifest.git \
+                -b lollipop-5.0 --no-repo-verify
+    $ repo sync --no-clone-bundle -c -j4
+
+为了解决在中国的开发者访问<https://github.com/FlymeOS>过于缓慢的问题，增加了本项目在中国的镜像地址：<http://git.oschina.net/FlymeOS>
+因此，中国的开发者可以使用下面的命令初始化和下载代码：
+    $ repo init --repo-url http://git.oschina.net/FlymeOS/repo.git \
+                -u http://git.oschina.net/FlymeOS/manifest.git \
                 -b lollipop-5.0 --no-repo-verify
     $ repo sync --no-clone-bundle -c -j4
 
