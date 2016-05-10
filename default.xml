@@ -3,7 +3,7 @@
   <remote name="origin"
           fetch=".." />
 
-  <default revision="refs/heads/lollipop-5.0"
+  <default revision="refs/heads/lollipop-5.1"
            remote="origin"
            sync-j="4" />
 
