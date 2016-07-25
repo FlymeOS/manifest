@@ -95,7 +95,15 @@
 - 然后，对拷贝的git库进行修改，将内容变更提交到自己的账户
 - 最后，在github页面上，点击"New pull request"，向Flyme官方发起代码审阅
 
-更多信息交流讨论：
 
-- **QQ  :**  49162418
-- **BBS :**  <http://bbs.flyme.cn/forum-119-1.html>
+6. 其他
+===
+
+<b>* 问题求助与反馈</b>
+
+- <p><a href="mailto:446108651@qq.com">446108651@qq.com</a></p>
+- <p><a href="mailto:zoujunhua86@gmail.com">zoujunhua86@gmail.com</a></p>
+
+<b>* 已适配机型展示与下载</b>
+
+- <http://www.flyme.cn/firmware.html>
