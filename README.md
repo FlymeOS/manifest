@@ -1,5 +1,4 @@
-1. 介绍
----
+# 1. 介绍
 
 `FlymeOS`开源项目致力于为开发者提供业界一流的ROM适配工具。
 
@@ -8,8 +7,7 @@
 [![License](https://img.shields.io/badge/License-Apache%20V2.0-blue.svg)](LICENSE)
 
 
-2. 分支命名
----
+# 2. 分支命名
 
 开源项目的分支命名与Android版本对应,目前支持**Android 6.0**的机型适配，分支名为：`marshmallow-6.0`
 
@@ -29,9 +27,7 @@
           +-- your_device   待开发者适配的机型
 
 
-3. 代码下载
----
-
+# 3. 代码下载
 
 通过repo init命令的-b参数, 选择需要下载的分支。
 通过repo sync命令同步远程代码: 
@@ -47,8 +43,7 @@
     $ repo sync --no-clone-bundle -c -j4
 
 
-4. 机型适配
----
+# 4. 机型适配
 
 <b>* 标准流程</b>
 
@@ -88,9 +83,7 @@
     $ flyme upgrade
 
 
-5. 贡献代码
----
-
+# 5. 贡献代码
 
 我们鼓励开发者为开源社区作出贡献。利用Github的Pull-Request机制，便可将内容变更发送给Flyme官方审阅。
 
@@ -101,9 +94,7 @@
 - 最后，在github页面上，点击"New pull request"，向Flyme官方发起代码审阅
 
 
-6. 其他
----
-
+# 6. 其他
 
 <b>* 问题求助与反馈</b>
 
