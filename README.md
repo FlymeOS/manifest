@@ -9,7 +9,7 @@
 
 # 2. 分支命名
 
-开源项目的分支命名与Android版本对应,目前支持**Android 6.0**的机型适配，分支名为：`marshmallow-6.0`
+开源项目的分支命名与Android版本对应,目前支持**Android 7.1**的机型适配，分支名为：`nougat-7.1`
 
 目录结构如下所示: 
 
@@ -32,14 +32,14 @@
 通过repo init命令的-b参数, 选择需要下载的分支。
 通过repo sync命令同步远程代码: 
 
-    $ repo init -u https://github.com/FlymeOS/manifest.git -b marshmallow-6.0
+    $ repo init -u https://github.com/FlymeOS/manifest.git -b nougat-7.1
     $ repo sync -c -j4
 
 如果连接一直失败或下载代码过慢，则使用以下命令:
 
     $ repo init --repo-url git://github.com/FlymeOS/repo.git \
                 -u https://github.com/FlymeOS/manifest.git \
-                -b marshmallow-6.0 --no-repo-verify
+                -b nougat-7.1 --no-repo-verify
     $ repo sync --no-clone-bundle -c -j4
 
 
